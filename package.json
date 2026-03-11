@@ -1,0 +1,30 @@
+{
+  "name": "visitor-pass-management",
+  "version": "2.0.0",
+  "description": "Enterprise Visitor Pass Management System with Multi-Organization Support, OTP Verification, and QR Codes",
+  "main": "backend/server.js",
+  "scripts": {
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "dev": "cd backend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "migrate": "cd backend && npm run migrate",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "echo \"Run tests in backend and frontend directories\""
+  },
+  "keywords": [
+    "visitor-management",
+    "mern-stack",
+    "qr-code",
+    "otp-verification",
+    "multi-organization",
+    "access-control",
+    "security-system"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
